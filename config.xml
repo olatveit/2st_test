@@ -2,10 +2,10 @@
 <widget id="com.phonegap.barpsi" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>BarPSI</name>
     <description>
-        A blank PhoneGap app.
+       Bar til PSI kalkulator
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="ola.tveit@lokalstarten.no" href="http://tveit-media.no">
+        Tveit Media
     </author>
     <content src="index.html" />
     <access origin="*" />
