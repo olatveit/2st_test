@@ -9,4 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    	<Plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner" source="Git" />
 </widget>
