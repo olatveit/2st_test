@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-<Plugin name="newman-eansupplemental" source="npm" />
+<Plugin name="phonegap-plugin-barcodescanner" source="npm" />
 </widget>
