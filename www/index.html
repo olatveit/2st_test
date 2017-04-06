@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+    </head>
+    <body>
+	
+	
+<h1>Bar-PSI kalkulator</h1>
+<label for="psi">Bar i PSI:</label>
+<input id="bar_id" type="number">
+<button id="btn_kalk">Kalkuler</button>
+<div id="resultat"></div>
+	
+	
+        <script type="text/javascript" src="cordova.js"></script>
+		
+		<script>
+document.getElementById("btn_kalk").addEventListener("click", myFunction);
+
+function myFunction() {
+var var_bar = document.getElementById("bar_id").value;
+var var_psi=var_bar*14.5037738;
+var var_resul=var_bar+" bar = "+var_psi+" PSI";
+    document.getElementById("resultat").innerHTML = var_resul;
+}
+</script>
+
+
+
+    </body>
+</html>
